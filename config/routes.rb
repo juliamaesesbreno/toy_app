@@ -1,4 +1,6 @@
-ToyApp::Application.routes.draw do
+Rails.application.routes.draw do
+  root 'application#hello'
+end
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
